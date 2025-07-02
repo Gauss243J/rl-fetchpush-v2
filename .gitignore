@@ -1,0 +1,35 @@
+# Python cache and bytecode
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Jupyter Notebooks checkpoints
+.ipynb_checkpoints/
+
+# Environment folders
+fetchvenv/
+env/
+.venv/
+venv/
+ENV/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# VSCode/IDE
+.vscode/
+.idea/
+*.swp
+
+# Python virtual environment files
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Ignore requirements file backup or lock
+requirements.txt~
+Pipfile.lock
+
+# Misc
+*.bak
+*.tmp
