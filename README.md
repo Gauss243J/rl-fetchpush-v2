@@ -2,6 +2,7 @@
 ---
 
 # RL-FetchPush2 – README
+![image](https://github.com/user-attachments/assets/06e19edc-5ad4-4a8e-a954-2c2cb3ce5b0c)
 
 ## Description
 
@@ -100,5 +101,6 @@ RL-FETCHPUSH2/
 Project by **Katembo Kaniki Joseph**
 University of Klagenfurt, 2025
 
+![Untitled video - Made with Clipchamp](https://github.com/user-attachments/assets/1e4d8bbb-7a7a-48c5-b485-2f497c43bcfb)
 
 
