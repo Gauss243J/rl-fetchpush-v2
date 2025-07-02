@@ -2,7 +2,8 @@
 ---
 
 # RL-FetchPush2 – README
-![image](https://github.com/user-attachments/assets/06e19edc-5ad4-4a8e-a954-2c2cb3ce5b0c)
+![image](https://github.com/user-attachments/assets/06e19edc-5ad4-4a8e-a954-2c2cb3ce5b0c) ![Untitled video - Made with Clipchamp](https://github.com/user-attachments/assets/fe3e00c2-a326-4212-82f1-b08a94535b34)
+
 
 ## Description
 
