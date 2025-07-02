@@ -37,6 +37,67 @@ RL-FETCHPUSH2/
 └── README.md                 # (this file)
 ```
 
+
+
+## Requirements
+
+Before running the code, create and activate a virtual environment, then install dependencies from the provided `requirements.txt`:
+
+```bash
+python -m venv fetchvenv
+source fetchvenv/bin/activate  # or fetchvenv\Scripts\activate on Windows
+pip install -r requirements.txt
+```
+
+**requirements.txt example:**
+
+```
+gym
+gym-robotics
+stable-baselines3[extra]
+mujoco
+matplotlib
+numpy
+```
+
+---
+
+## Model Architecture
+
+The solution uses a **DDPG + HER** architecture with two neural networks:
+
+* **Actor Network:**
+
+  * **Input:** State + Goal
+  * **Layers:** Dense (ReLU) → Dense (ReLU) → Output (action)
+* **Critic Network:**
+
+  * **Input:** State + Goal + Action
+  * **Layers:** Dense (ReLU) → Dense (ReLU) → Output (Q-value)
+* **HER (Hindsight Experience Replay):**
+
+  * Augments the replay buffer by relabeling failed experiences with new (achieved) goals to improve learning from sparse rewards.
+
+**Diagram:**
+![image](https://github.com/user-attachments/assets/91149336-e7bb-4164-8e9d-5f421888ea2c)
+
+---
+
+## Training Performance
+
+* **Success rate:** Up to 82%
+* **Average reward:** Around -20 (rewards are negative until the goal is reached)
+* **Episode length:** 50 steps per episode
+* **Reward Curve:**
+
+  * The moving average reward stabilizes, demonstrating effective learning.
+  * HER significantly boosts learning speed in this sparse reward setting.
+* **Best episodes:** Video recordings available in the `videos/` folder.
+
+![image](https://github.com/user-attachments/assets/f925e03a-a6ca-4d43-8ca5-18f7aa0162a8) ![image](https://github.com/user-attachments/assets/3e9345f7-b967-4578-b1b8-9a1fa65470b8)
+
+![image](https://github.com/user-attachments/assets/65d1e611-1f26-45c6-acfe-ebe70e8f571b)
+
 ---
 
 ## Script Details
