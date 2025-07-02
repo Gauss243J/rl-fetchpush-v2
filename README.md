@@ -94,9 +94,7 @@ The solution uses a **DDPG + HER** architecture with two neural networks:
   * HER significantly boosts learning speed in this sparse reward setting.
 * **Best episodes:** Video recordings available in the `videos/` folder.
 
-![image](https://github.com/user-attachments/assets/f925e03a-a6ca-4d43-8ca5-18f7aa0162a8) ![image](https://github.com/user-attachments/assets/3e9345f7-b967-4578-b1b8-9a1fa65470b8)
-
-![image](https://github.com/user-attachments/assets/65d1e611-1f26-45c6-acfe-ebe70e8f571b)
+![image](https://github.com/user-attachments/assets/f925e03a-a6ca-4d43-8ca5-18f7aa0162a8)![image](https://github.com/user-attachments/assets/3e9345f7-b967-4578-b1b8-9a1fa65470b8)
 
 ---
 
